@@ -20,8 +20,8 @@ Route::get('/', function () {
 })->name('/');
 
 Route::get('/dashboard', function () {
-    return view('index');
-})->name('/');
+    return view('dashboard');
+})->name('dashboard');
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])
 ->name('login');

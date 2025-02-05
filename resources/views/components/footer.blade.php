@@ -1,13 +1,13 @@
-<footer class="bg-transparent text-black py-6 mt-8">
+<footer class="bg-transparent text-black py-5">
     <div class="container mx-auto text-center sm:text-left">
         <div class="flex justify-between items-center sm:flex-row flex-col">
             <p class="text-sm">
-                &copy; {{ date('Y') }} | HubMenu
+                &copy; {{ date('Y') }} HubMenu
             </p>
             <div class="mt-2 sm:mt-0 flex flex-grow justify-end">
                 <a href="#" class="text-black-200 hover:text-blue-300 mx-2">Termos de Serviço</a>
                 <a href="#" class="text-black-200 hover:text-blue-300 mx-2">Política de Privacidade</a>
-                <a href="#" class="text-black-200 hover:text-blue-300 mx-2">Sobre nós</a>
+                <a href="#" class="text-black-200 hover:text-blue-300 mx-2">Sobre o HubMenu</a>
             </div>
 
             <div class="flex items-center ml-4">

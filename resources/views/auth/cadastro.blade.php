@@ -4,11 +4,11 @@
 @section('content')
     <div class="flex flex-col min-h-screen bg-gradient-to-b from-blue-500 to-gray-700 px-4 sm:px-6 lg:px-8" id="main-container" data-theme="light">
         <div class="flex-grow flex items-center justify-center">
-            <form method="POST" action="{{ route('login') }}" class="bg-gray-800 text-white rounded-2xl p-8 shadow-lg w-full sm:w-96 md:w-[450px] lg:w-[500px] mx-auto transform transition-all duration-300 hover:shadow-2xl">
+            <form method="POST" action="{{ route('register') }}" class="bg-gray-800 text-white rounded-2xl p-8 shadow-lg w-full sm:w-96 md:w-[420px] lg:w-[480px] xl:w-[500px] mx-auto transform transition-all duration-300 hover:shadow-2xl">
                 @csrf
                 <div class="text-center mb-6">
                     <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" class="w-40 h-40 mx-auto">
-                    <p class="text-xl font-semibold mt-2">Central do Usuário - Login</p>
+                    <p class="text-xl font-semibold mt-2">Central do Usuário - Cadastro</p>
                 </div>
 
                 <div class="mb-4">
@@ -56,8 +56,8 @@
 
                 <div>
                     <button type="submit"
-                            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-                        Registrar
+                            class="w-full bg-blue-600 hover:bg-blue-700 text-blue-white font-medium py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                        Cadastrar-se
                     </button>
                 </div>
 
