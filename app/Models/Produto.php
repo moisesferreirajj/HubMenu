@@ -37,7 +37,7 @@ class Produto extends Model
      */
     public function pedidos()
     {
-        return $this->belongsToMany(Pedido::class, 'pedido_produto')
+        return $this->belongsToMany(Pedidos::class, 'pedido_produto')
             ->withPivot('quantidade')
             ->withTimestamps();
     }

@@ -33,7 +33,7 @@ class Lanchonete extends Model
      */
     public function pedidos()
     {
-        return $this->hasMany(Pedido::class, 'lanchonete_id');
+        return $this->hasMany(Pedidos::class, 'lanchonete_id');
     }
 
     /**
