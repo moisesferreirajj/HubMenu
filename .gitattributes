@@ -8,6 +8,7 @@
 *.php diff=php
 *.blade.php linguist-language=php
 *.blade linguist-language=php
+*.css linguist-language=php
 
 /.github export-ignore
 CHANGELOG.md export-ignore
