@@ -27,8 +27,8 @@ class RolesResource extends Resource
                     ->label('Nome')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\Textarea::make('description')
-                    ->label('Descrição')
+                Forms\Components\Textarea::make('guard_name')
+                    ->label('Opção')
                     ->required()
                     ->columnSpanFull(),
             ]);
@@ -41,8 +41,8 @@ class RolesResource extends Resource
                 Tables\Columns\TextColumn::make('name')
                     ->label('Nome')
                     ->searchable(),
-                    Tables\Columns\TextColumn::make('description')
-                    ->label('Descrição')
+                    Tables\Columns\TextColumn::make('guard_name')
+                    ->label('Opção')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
